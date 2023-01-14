@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header>
+      <nav>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+    <main>
+      <section id="about">
+        <h1>About Me</h1>
+        <img src="me.jpg" alt="A picture of yourself" id="profile-pic">
+        <p id="about-me"> Hi, I am Tamas and I am an assistant manager at Five Guys.
+            Curently I am taking a course to become a webdeveloper.
+            On my free time I learn how to code and I play video games somtimes with my friends.</p>
+      </section>
+      <section id="projects">
+        <div class="project">
+          <h2>Computer building</h2>
+          <p>I have built my on PC </p>
+        </div>
+        <div class="project">
+          <h2>Building website</h2>
+          <p>Curently I am practicing web-development </p>
+        </div>
+      </section>
+      <section id="contact">
+        <h1>Contact Me</h1>
+        <form>
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name"><br>
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email"><br>
+          <label for="message">Message:</label>
+          <textarea id="message" name="message"></textarea><br>
+          <input type="submit" value="Submit">
+        </form>
+      </section>
+    </main>
+    <footer>
+      <p>Copyright © 2023 My Portfolio</p>
+    </footer>
+    <script src="main.js"></script>
+  </body>
+</html>
